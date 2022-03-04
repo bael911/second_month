@@ -59,7 +59,7 @@ class Cow:
                f'color: {self.color}\n' \
                f'height: {self.height}'
 
-Ashab_Tamaev = Cow(180,1.80, 'black-white', 'muuuuuuuuuuuuuuuuuuuu muuuuuuuuuuuuuuuuuuuuu')
+Ashab_Tamaev = Cow(180,1.80, 'black-white', 'muu muu')
 print('Это Корова')
 print(Ashab_Tamaev)
 Ashab_Tamaev.voise()
