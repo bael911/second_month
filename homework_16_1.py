@@ -14,7 +14,7 @@ class Dog:
                f'height: {self.height}'
 
 
-rex = Dog(74, 1.75, 'black', 'gaf gaf')
+rex = Dog(74, 1.75, 'black', 'gaа gaf')
 print('эТО СОБАКА')
 print(rex)
 rex.voice()
@@ -59,11 +59,13 @@ class Cow:
                f'color: {self.color}\n' \
                f'height: {self.height}'
 
-Ashab_Tamaev = Cow(180,1.80, 'black-white', 'muu muu')
+
+Ashab_Tamaev = Cow(180, 'black-white', 183, 'Насвай Барма?')
 print('Это Корова')
 print(Ashab_Tamaev)
 Ashab_Tamaev.voise()
 print("-" * 40)
+
 
 class Bear:
     def __init__(self, weight, color, height, voiceText):
@@ -80,7 +82,9 @@ class Bear:
                f'color: {self.color}\n' \
                f'height: {self.height}'
 
-Vasiliy = Bear(201,1.99, 'brown', 'sjfhsjbcauydgakugakbaj')
+
+Vasiliy = Bear(201, 'brown', 199, 'Русские Не Сдаютьсяяяяяяяяяяяяяя!')
 print('Это Медведь')
 print(Vasiliy)
 Vasiliy.voise()
+print('-' * 40)
